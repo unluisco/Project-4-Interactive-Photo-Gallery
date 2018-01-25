@@ -26,7 +26,7 @@ input {
 
 input:focus { border: 3px solid #ffc24d; }
 
-img {
+img:not(.chocolat-img) {
 	vertical-align: middle; /* Remove bottom space */
 	width: 45%;
 	margin: 2.5%;
@@ -52,7 +52,50 @@ img {
 		font-size: 1.2rem;
 	}
 
-	img { width: 20%; }
+	img:not(.chocolat-img) { width: 20%; }
 
 	.wrapper { width: 80%; }
+}
+
+/* Chocolat plugin */
+
+.chocolat-overlay {
+background-color:#000;
+opacity: .9;
+}
+
+.chocolat-img { border-radius: 3px; }
+
+.chocolat-wrapper .chocolat-description {
+	float: none;
+	width: 80%;
+}
+
+.chocolat-wrapper .chocolat-close,
+.chocolat-wrapper .chocolat-set-title,
+.chocolat-wrapper .chocolat-pagination,
+.chocolat-wrapper .chocolat-fullscreen { display: none; }
+
+.chocolat-wrapper .chocolat-bottom {
+	height: auto;
+	bottom: 20vh;
+	background: none;
+	text-align: center;
+	line-height: 20px;
+}
+
+@media (min-width: 600px) {
+
+	.chocolat-wrapper .chocolat-bottom { bottom: 5vh; }
+}
+
+@media (min-width: 768px) {
+
+	.chocolat-wrapper .chocolat-left { left: 5%; }
+
+	.chocolat-wrapper .chocolat-right { right: 5%; }
+
+	.chocolat-wrapper .chocolat-bottom { bottom: 10px; }
+
+	.chocolat-wrapper .chocolat-description { width: 600px; }
 }

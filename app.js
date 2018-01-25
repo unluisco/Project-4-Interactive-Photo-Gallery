@@ -1,0 +1,1 @@
+$('#lightbox').Chocolat({ enableZoom: false });

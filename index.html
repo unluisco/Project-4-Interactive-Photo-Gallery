@@ -5,23 +5,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>&#8670; A home for my adventures.</title>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Franklin">
+		<link rel="stylesheet" href="chocolat/chocolat.css">
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<input type="search">
-		<div class="wrapper">
-			<img src="photos/thumbnails/01.jpg" alt="A photo of Hay Bales."><!--
-			--><img src="photos/thumbnails/02.jpg" alt="A photo of a Lake."><!--
-			--><img src="photos/thumbnails/03.jpg" alt="A photo of a Canyon."><!--
-			--><img src="photos/thumbnails/04.jpg" alt="A photo of an Iceberg."><!--
-			--><img src="photos/thumbnails/05.jpg" alt="A photo of a Desert."><!--
-			--><img src="photos/thumbnails/06.jpg" alt="A photo of a Fall."><!--
-			--><img src="photos/thumbnails/07.jpg" alt="A photo of a Plantation."><!--
-			--><img src="photos/thumbnails/08.jpg" alt="A photo of Dunes."><!--
-			--><img src="photos/thumbnails/09.jpg" alt="A photo of a Countryside Lane."><!--
-			--><img src="photos/thumbnails/10.jpg" alt="A photo of a Sunset."><!--
-			--><img src="photos/thumbnails/11.jpg" alt="A photo of a Cave."><!--
-			--><img src="photos/thumbnails/12.jpg" alt="A photo of Bluebells.">
+		<div id="lightbox" class="wrapper">
+			<a class="chocolat-image" href="photos/01.jpg" title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."><img src="photos/thumbnails/01.jpg" alt="A photo of Hay Bales."></a><!--
+			--><a class="chocolat-image" href="photos/02.jpg" title="The lake was so calm today. We had a great view of the snow on the mountains from here."><img src="photos/thumbnails/02.jpg" alt="A photo of a Lake."></a><!--
+			--><a class="chocolat-image" href="photos/03.jpg" title="I hiked to the top of the mountain and got this picture of the canyon and trees below."><img src="photos/thumbnails/03.jpg" alt="A photo of a Canyon."></a><!--
+			--><a class="chocolat-image" href="photos/04.jpg" title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today."><img src="photos/thumbnails/04.jpg" alt="A photo of an Iceberg."></a><!--
+			--><a class="chocolat-image" href="photos/05.jpg" title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."><img src="photos/thumbnails/05.jpg" alt="A photo of a Desert."></a><!--
+			--><a class="chocolat-image" href="photos/06.jpg" title="Fall is coming, I love when the leaves on the trees start to change color."><img src="photos/thumbnails/06.jpg" alt="A photo of a Fall."></a><!--
+			--><a class="chocolat-image" href="photos/07.jpg" title="I drove past this plantation yesterday, everything is so green!"><img src="photos/thumbnails/07.jpg" alt="A photo of a Plantation."></a><!--
+			--><a class="chocolat-image" href="photos/08.jpg" title="My summer vacation to the Oregon Coast. I love the sandy dunes!"><img src="photos/thumbnails/08.jpg" alt="A photo of Dunes."></a><!--
+			--><a class="chocolat-image" href="photos/09.jpg" title="We enjoyed a quiet stroll down this countryside lane."><img src="photos/thumbnails/09.jpg" alt="A photo of a Countryside Lane."></a><!--
+			--><a class="chocolat-image" href="photos/10.jpg" title="Sunset at the coast! The sky turned a lovely shade of orange."><img src="photos/thumbnails/10.jpg" alt="A photo of a Sunset."></a><!--
+			--><a class="chocolat-image" href="photos/11.jpg" title="I did a tour of a cave today and the view of the landscape below was breathtaking."><img src="photos/thumbnails/11.jpg" alt="A photo of a Cave."></a><!--
+			--><a class="chocolat-image" href="photos/12.jpg" title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."><img src="photos/thumbnails/12.jpg" alt="A photo of Bluebells."></a>
 		</div>
+		<script src="https://unpkg.com/jquery"></script>
+		<script src="chocolat/jquery.chocolat.min.js"></script>
+		<script src="app.js"></script>
 	</body>
 </html>
