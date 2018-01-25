@@ -2,7 +2,6 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	/* border: 1px solid red; */
 }
 
 body {
@@ -38,7 +37,6 @@ img {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	/* border: 1px solid red; */
 }
 
 @media (min-width: 768px) {
