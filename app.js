@@ -11,6 +11,5 @@ $( '.inputSearch' ).on( 'keyup', function() {
 		} else {
 			$( this ).show();
 		}
-
 	});
 });
